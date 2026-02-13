@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmaps - LearnCode</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm border-b sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <a href="home.html" class="flex items-center space-x-2">
+                    <svg class="h-8 w-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                    </svg>
+                    <span class="text-xl font-bold text-gray-900">LearnCode</span>
+                </a>
+                
+                <div class="flex space-x-8">
+                    <a href="home.html" class="text-gray-700 hover:text-blue-600 transition">Home</a>
+                    <a href="roadmaps.html" class="text-blue-600 font-medium">Roadmaps</a>
+                    <a href="resources.html" class="text-gray-700 hover:text-blue-600 transition">Resources</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="bg-gradient-to-br from-blue-50 to-indigo-100 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">Choose Your Learning Path</h1>
+            <p class="text-xl text-gray-600">Structured roadmaps designed for beginners</p>
+        </div>
+    </div>
+
+    <!-- Roadmaps Grid -->
+    <section class="py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Frontend -->
+                <div class="bg-white rounded-xl shadow-sm border-l-4 border-yellow-500 p-6 hover:shadow-md transition">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center space-x-3">
+                            <span class="text-3xl">🟡</span>
+                            <h2 class="text-2xl font-bold text-gray-900">Frontend Developer</h2>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Master HTML, CSS, JavaScript, and React to build beautiful user interfaces</p>
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                        <span>⏱️ 4-6 months</span>
+                        <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full">Beginner Friendly</span>
+                    </div>
+                    <a href="roadmap-frontend.html" class="flex items-center justify-center w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+                        View Roadmap
+                        <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Backend -->
+                <div class="bg-white rounded-xl shadow-sm border-l-4 border-blue-500 p-6 hover:shadow-md transition">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center space-x-3">
+                            <span class="text-3xl">🔵</span>
+                            <h2 class="text-2xl font-bold text-gray-900">Backend Developer</h2>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Learn Node.js, databases, APIs, and server-side programming</p>
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                        <span>⏱️ 5-7 months</span>
+                        <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full">Beginner Friendly</span>
+                    </div>
+                    <a href="roadmap-backend.html" class="flex items-center justify-center w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+                        View Roadmap
+                        <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Python -->
+                <div class="bg-white rounded-xl shadow-sm border-l-4 border-green-500 p-6 hover:shadow-md transition">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center space-x-3">
+                            <span class="text-3xl">🟢</span>
+                            <h2 class="text-2xl font-bold text-gray-900">Python Developer</h2>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Start with Python basics and progress to web development and automation</p>
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                        <span>⏱️ 3-5 months</span>
+                        <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full">Absolute Beginner</span>
+                    </div>
+                    <a href="roadmap-python.html" class="flex items-center justify-center w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+                        View Roadmap
+                        <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- AI/ML -->
+                <div class="bg-white rounded-xl shadow-sm border-l-4 border-red-500 p-6 hover:shadow-md transition">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center space-x-3">
+                            <span class="text-3xl">🔴</span>
+                            <h2 class="text-2xl font-bold text-gray-900">AI/ML Engineer</h2>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Dive into machine learning, neural networks, and AI applications</p>
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                        <span>⏱️ 6-9 months</span>
+                        <span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full">Intermediate</span>
+                    </div>
+                    <a href="roadmap-aiml.html" class="flex items-center justify-center w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+                        View Roadmap
+                        <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- DSA -->
+                <div class="bg-white rounded-xl shadow-sm border-l-4 border-purple-500 p-6 hover:shadow-md transition md:col-span-2">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center space-x-3">
+                            <span class="text-3xl">🟣</span>
+                            <h2 class="text-2xl font-bold text-gray-900">Data Structures & Algorithms</h2>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Master problem-solving and ace coding interviews</p>
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                        <span>⏱️ 4-6 months</span>
+                        <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full">Beginner Friendly</span>
+                    </div>
+                    <a href="roadmap-dsa.html" class="flex items-center justify-center w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition max-w-md mx-auto">
+                        View Roadmap
+                        <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-400">© 2024 LearnCode. Structured learning for developers.</p>
+        </div>
+    </footer>
+</body>
+</html>
